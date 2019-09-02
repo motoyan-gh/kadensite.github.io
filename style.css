@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-size: 1.5rem;
   font-family: "Hiragino Mincho ProN", Meiryo, sans-serif;
   color: #333;
@@ -153,6 +154,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .news .heading {
+  margin: 0;
   padding: 10px 15px;
   background-color: rgba(220, 20, 60);
   color: ghostwhite;
@@ -160,6 +162,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .news-list {
+  margin: 0;
+  padding: 0;
   max-height: 220px;
   overflow-y: auto;
   list-style-type: none;
@@ -215,7 +219,7 @@ a:link, a:visited, a:hover, a:active {
 .column-box {
   display: block;
   width: 380px;
-  height: 400px;
+  height: 500px;
   margin-bottom: 40px;
   background-color: white;
   box-shadow: 0 0 5px gray;
@@ -317,13 +321,14 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .ranking .heading {
-  margin: 10px 0 0 5px;
+  margin: 10px 0 0 10px;
   font-size: 3rem;
   letter-spacing: 1px;
   color: dimgray;
 }
 
 .ranking-list {
+  padding-left: 60px;
   list-style-type: none;
   counter-reset: ranking;
 }
@@ -346,9 +351,9 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .ranking-list .image {
-  width: 80px;
+  width: 100px;
   height: 80px;
-  margin-right: 5px;
+  margin-right: 0;
 }
 
 .ranking-list .text {
@@ -364,7 +369,7 @@ a:link, a:visited, a:hover, a:active {
   display: inline-block;
   width: 30px;
   height: 30px;
-  margin: 0 5px;
+  margin: 0 20px 0 0;
   vertical-align: 35px;
   border: 1px solid #ccc;
   border-radius: 50%;
@@ -410,7 +415,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .document .heading {
-  margin: 10px 0 0 5px;
+  margin: 10px 0 0 10px;
   font-size: 3rem;
   letter-spacing: 1px;
   color: dimgray;
@@ -421,8 +426,12 @@ a:link, a:visited, a:hover, a:active {
   list-style-type: none;
 }
 
+.document-list {
+  padding-left: 60px;
+}
+
 .document-list .title {
-  margin: 25px 0 0 20px;
+  margin: 25px 0 0 0;
   padding-left: 5px;
   border-left: 20px solid #6495ed;
   font-size: 2rem;
@@ -431,6 +440,7 @@ a:link, a:visited, a:hover, a:active {
 
 .document-list > li ul {
   margin: 10px 0 0 40px;
+  padding-left: 40px;
 }
 
 .document-list a {
