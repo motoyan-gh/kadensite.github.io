@@ -49,6 +49,10 @@ a:link, a:visited, a:hover, a:active {
   text-align: center;
 }
 
+.header .nav-wrapper > ul {
+    padding: 0;
+}
+
 .header .nav-item {
   display: inline-block;
   margin: 0 10px;
@@ -650,10 +654,6 @@ a:link, a:visited, a:hover, a:active {
 
   .header .nav-wrapper {
     margin-top: 10px;
-  }
-  
-  .header .nav-wrapper > ul {
-    padding: 0;
   }
 
   .header .nav-item {
