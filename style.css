@@ -608,6 +608,10 @@ a:link, a:visited, a:hover, a:active {
     left: 50px;
   }
   
+  .ranking {
+    padding-bottom: 15px;
+  }
+  
   .ranking-list {
     padding-left: 100px;
   }
