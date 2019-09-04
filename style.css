@@ -544,7 +544,7 @@ a:link, a:visited, a:hover, a:active {
     font-size: 2.5rem;
   }
 
-  .ranking-list .ranking-item:nth-last-of-type(n+4) {
+  .ranking-list .ranking-item:nth-of-type(n+4) {
     display: none;
   }
 
