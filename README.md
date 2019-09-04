@@ -1,2 +1,2 @@
 # kadensite
-Kaden site landing page. HTML, CSS.
+Kaden site landing page. HTML, CSS. Responsive.
