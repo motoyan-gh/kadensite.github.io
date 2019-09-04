@@ -494,7 +494,7 @@ a:link, a:visited, a:hover, a:active {
 
   .column-box {
     width: 280px;
-    height: 300px;
+    height: 350px;
   }
 
   .column-box .title {
@@ -603,13 +603,18 @@ a:link, a:visited, a:hover, a:active {
     top: -75px;
     left: 50px;
   }
-
+  
+  .ranking-list {
+    padding-left: 100px;
+  }
+  
   .ranking-list .ranking-item {
     display: inline-block;
   }
 
   .document-list > li {
     display: inline-block;
+    width: 230px;
   }
 
   .document-list a:hover {
@@ -645,6 +650,10 @@ a:link, a:visited, a:hover, a:active {
 
   .header .nav-wrapper {
     margin-top: 10px;
+  }
+  
+  .header .nav-wrapper > ul {
+    padding: 0;
   }
 
   .header .nav-item {
@@ -715,7 +724,7 @@ a:link, a:visited, a:hover, a:active {
 
   .column-box {
     width: 250px;
-    height: 275px;
+    height: 320px;
   }
 
   .column-box .title {
@@ -748,6 +757,10 @@ a:link, a:visited, a:hover, a:active {
     height: 30px;
     left: 210px;
   }
+  
+  .ranking-list {
+    padding-left: 25px;
+  }
 
   .ranking .heading::before {
     font-size: 2rem;
@@ -759,6 +772,14 @@ a:link, a:visited, a:hover, a:active {
 
   .document .heading {
     font-size: 2rem;
+  }
+  
+  .document-list {
+    padding-left: 25px;
+  }
+  
+  .document-list > li {
+    width: 200px;
   }
 
   .document-list .title {
